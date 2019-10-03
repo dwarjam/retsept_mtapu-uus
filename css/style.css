@@ -1,0 +1,97 @@
+body{
+    background-color: #c9d99e;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Bubbler One', sans-serif;
+    color: #445c3c;
+}
+
+tr, th, p, a{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 8px;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+th{
+    color: #6e2142;
+}
+
+tr:nth-child(odd) {
+    background: rgb(225, 99, 99, 0.5);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(148, 56, 85, 0.5);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+ol{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.bodyWrapper{
+    margin-left: 20%;
+    margin-top: 75px;
+    width: 50%;
+}
+
+.header{
+    width: 100%;
+}
+
+.header img{
+    position: relative;
+    width: 100%;
+}
+
+.header h2{
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 4em;
+    margin: 10px;
+    color: #445c3c;
+}
+
+.header a, p{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 5px;
+    margin: 0;
+}
+
+.headerImg{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.sidebar{
+    position: fixed;
+    margin-left: 70%;
+    padding-left: 25px;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+}
+
+.bodyBox{
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+}
+
+.bodyBoxImage img{
+    position: relative;
+    width: 100%;
+}
